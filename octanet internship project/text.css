@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   display: block;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+  
+    
+      
+    
+}
+
+.laptop
+{
+  position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url(laptopweb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+
+    color: aliceblue;
+    overflow: hidden;
+}
+.message-box {
+  background-color: lightskyblue;
+  border: solid black;
+  
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+}
+ .message-box h2 {
+  text-align: center;
+}
+ .message-box form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ .message-box label {
+  margin-bottom: 5px;
+}
+ .message-box input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+ .message-box button{
+  padding: 5px 10px;
+}
+.message-box{
+
+    width: 50%;
+    height: 80vh;
+    background-image: url(office1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    color: aliceblue;
+}
+
+.question{
+    width: 100%;
+    height: 100vh;
+    background-image: url(question.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    color: aliceblue;
+
+}
+h3 {
+  animation: slideInLeft 5s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+h2.que {
+  animation: slideInLeft 6s ease-in-out;
+}
+@keyframes slideInLeft {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+.background-section {
+  background: linear-gradient(to bottom,lightskyblue,white);
+}
+h3.black {
+  background-color: #000000;
+  color: #ffffff; 
+}
+.hi {
+ 
+  background: linear-gradient(to bottom, lightskyblue,white);
+  height: 100vh; /* Set the height to occupy the full viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-box {
+  background-color: #ffffff; /* Set the background color of the message box */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
